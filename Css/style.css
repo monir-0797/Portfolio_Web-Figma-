@@ -1,0 +1,402 @@
+/* Common Css Star's */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aling-center{
+    align-items: center;
+}
+.button{
+    background: var(--mainColor);
+    border-radius: 6px;
+    color: white;
+    padding: 12px 40px;
+    display: inline-block;
+    margin-top: 35px;
+}
+.heading h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px; 
+    color: #F8991C;    
+}
+.heading h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;    
+}
+.aling-end{
+    align-items: flex-end;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --mainColor:#F8991C;
+}
+/* Common Css End's */
+
+/* Nav Start's */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+}
+nav .menu ul{
+    text-align: right;
+
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu  ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding: 50px 30px;
+    display: block;
+    transition: 0.3s;
+}
+nav .menu  ul li a:hover{
+    color: var(--mainColor);
+}
+/* Nav End's */
+
+
+
+/* Banner Start;s */
+#banner{
+    background-color: #f8f8f8;
+    height: 664px;
+}
+#banner .banner_text{
+    width: 60%;
+}
+#banner .banner_text h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#banner .banner_text h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+}
+#banner .banner_text p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+
+#banner .banner_img{
+    width: 40%;
+}
+#banner .social_cnt {
+    margin-top: 100px;
+}
+#banner .social_cnt p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+#banner .social_cnt ul{
+    margin-left: 120px;
+}
+#banner .social_cnt ul li{
+    display: inline-block;
+}
+#banner .social_cnt ul li a{
+    font-size: 25px;
+    color: #4267B2;
+}
+#banner .social_cnt .insta{
+    color: #3F729B;
+}
+ #banner .social_cnt ul li .linkdin{
+color: #0072B1;
+} 
+#banner .btn:hover{
+    background-color: #000000;
+}
+/* Banner End's */
+
+/*About Start's*/
+#about .about_img{
+    width: 30%;
+    margin: 200px 0;
+}
+#about .about_img img{
+    width: 100%;
+}
+#about .about_cnt{
+    width: 70%;
+    padding-left: 45px;
+}
+#about .about_cnt h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--mainColor);
+}
+#about .about_cnt h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#about .about_cnt p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;   
+    color: #000000;    
+    padding: 25px 0;
+}
+#about .about_cnt .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid var(--mainColor);
+    margin-left: 35px;
+}
+#about .about_cnt .about_img_2{
+    margin-top: 50px;
+}
+#about .about_cnt .btn:hover{
+    background-color: var(--mainColor);
+    color: white;
+    border: none;
+}
+#about .about_cnt .button:hover{
+    background-color: #000000;
+}
+/* About End's */
+
+/* Specialing Start's */
+#special{
+    background-color: #f8f8f8;
+    padding: 100px 0;
+    position: relative;
+}
+.Specialiging_card{
+    width: calc(33.33% - 85px);
+    margin-left: 42.5px;
+    text-align: center;
+    transition: 0.2s;
+    transform: scale(1);
+}
+.Specialiging_card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.Specialiging_card h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #F8991C;    
+}
+.Specialiging_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+    color: #000000;
+    margin-top: 10px;
+}
+#special > img{
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 40px 0;
+}
+ #special .Card-2{
+    padding-top: 25px;
+} 
+#special .Card-2 h3{
+    padding-top: 20px;
+}
+#special .Card-3{
+    padding-top: 25px;
+} 
+#special .Card-3 h3{
+    padding-top: 25px;
+}
+/* Specialing End's*/
+
+
+/* Education Start's */
+#education{
+    margin: 100px 0;
+}
+#education .education_card{
+    width: calc( 33.33% - 44px);
+    margin-left: 22px;
+    margin-top: 68px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 0;
+    transition: 0.2s;
+    transform: scale(1);
+}
+#education .education_card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.education_card h4{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+   line-height: 22px;
+   padding: 10px;
+}
+.education_card h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.education_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 5px 0;
+}
+.education_card p a{
+    color: var(--mainColor);
+}
+/* Education End's */
+
+
+/* Portfolio Start's */
+#portfolio{
+    background-color: #F8F8F8;
+    padding: 40px 0;
+}
+#portfolio .portfolio_card{
+    width: calc(25%-20px) ;
+    margin-left: 10px;
+    transition: 0.2s;
+    transform: scale(1);
+}
+#portfolio .portfolio_card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* Portfolio End's */
+
+/* Testimonial Start's */
+#testimonial{
+    margin: 70px 0;
+}
+#testimonial .testimonial_card{
+    width: calc(50% - 50px);
+   margin: 68px 25px;
+   /* background-color: red; */
+   padding: 34px;
+   background: #FFFFFF;
+   box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+   transition: 0.2s;
+   transform: scale(1);
+}
+#testimonial .testimonial_card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#testimonial .testimonial_card .img{
+    width: 20%;
+}
+#testimonial .testimonial_card .img img{
+    width: 100%;
+}
+#testimonial .testimonial_card .text{
+    width: 80%;
+}
+#testimonial .testimonial_card .text h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 9px;
+}
+#testimonial .testimonial_card .text p{
+    margin-left: 9px;
+}
+#testimonial .testimonial_card > p{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* Testimonial End's */
+
+
+/* Blog Start's */
+#blog{
+   padding: 64px 0 40px;
+    background-color:#F8F8F8;
+}
+#blog .blog_card{
+    width:calc( 33.33% - 40px);
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    transition: 0.2s;
+    transform: scale(1);
+}
+#blog .blog_card:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#blog .blog_card img{
+    width: 100%;
+}
+.blog_card .text{
+    padding: 17px 0;
+}
+.blog_card .text h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;    
+}
+.blog_card .text p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    padding: 17px;    
+}
+.blog_card .text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;    
+}
+/* Blog End's */
